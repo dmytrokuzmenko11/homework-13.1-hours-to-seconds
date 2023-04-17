@@ -4,7 +4,7 @@
 let getHours = parseInt(prompt('Enter the number of hours', 5));
 
 // Convert hours into seconds
-let getSeconds = (getHours) => getHours * 60;
+let getSeconds = (getHours) => getHours * 3600;
 
 // User message
 alert(`The number of seconds in ${getHours} hours = ${getSeconds(getHours)}`);
