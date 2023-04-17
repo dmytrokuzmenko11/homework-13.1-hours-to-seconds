@@ -10,3 +10,4 @@ let getSeconds = (getHours) => getHours * 60;
 alert(`The number of seconds in ${getHours} hours = ${getSeconds(getHours)}`);
 
 
+// 
